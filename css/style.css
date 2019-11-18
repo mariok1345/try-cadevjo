@@ -1,0 +1,250 @@
+/* IMAGENES PRINCIPALE EDIFICIOS Y CAMAROGRAFO */
+.header {
+  background-image: url('../img/Enmascarar grupo 4.png'), url('../img/background-inicio.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, 100%;
+  background-position: right, top;
+  height: 100vh;
+}
+
+/* logo */
+.img-responsive {
+  width: 100%;
+  max-width: 260px
+}
+
+/* ............................... */
+/* #Navbar */
+.navbar {
+  padding: 2.5rem 1rem 0 1rem;
+}
+
+/*padding de links del navbar*/
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 4.5rem;
+}
+
+ul li:last-child>a {
+  padding-right: 7.5rem !important;
+}
+
+/*..............................*/
+/* icono de inicio */
+.svg-inline--fa.fa-w-14 {
+  margin-right: 8px;
+  color: #324e6f;
+}
+
+/* #Navbar */
+/* MODELO DE CAJA */
+/* .box{
+  width: 100%;
+  max-width:1080px;
+} */
+/* TITULO 1 */
+.title-sale {
+  color: #7e7e7e;
+  font-size: 2.5em;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  padding: 2.5rem 0;
+}
+
+/* TITULO 2 */
+.title-how-are {
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  padding-top: 30rem;
+}
+
+/* PRIMER CARUSEL */
+.carousel-contenedor {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+
+.carousel {
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+  /* height:50vh; */
+  width: 50%;
+}
+
+/* IMAGEN DE CAROUSEL Y BOTON */
+.firts {
+  position: relative;
+  z-index: 1;
+}
+
+.second {
+  position: relative;
+  z-index: 2;
+  bottom: 230px;
+  left: 10px;
+}
+
+/* CARD */
+.card {
+  background-color: #f6f6f6;
+  border-radius: 1.25rem;
+  margin: auto;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(1.25rem - 1px);
+  border-top-right-radius: calc(1.25rem - 1px);
+}
+
+/* mensaje en picture */
+.badge-warning {
+  color: white;
+  background-color: #e6a92a;
+  font-weight: 800;
+}
+
+.badge {
+  width: 25%;
+  line-height: 3;
+  font-size: .9em;
+  border-radius: 15px;
+  padding: 0;
+}
+
+.slick-prev:before {
+  content: url('../img/arrow-back.svg') !important;
+}
+
+.slick-next:before {
+  content: url('../img/arrow-front.svg') !important;
+}
+
+.slick-slide {
+  margin-right: 14px;
+  margin-left: 14px;
+  width: 380px;
+}
+
+.slick-prev {
+  left: -45px;
+  top: 40%;
+}
+
+.slick-next {
+  right: -45px;
+  top: 40%;
+}
+
+/* RESET */
+.app {
+  margin-bottom: 100px;
+}
+
+/* section 3 */
+.cv-download {
+  background-image: url('../img/img-curriculum.svg');
+  background-repeat: no-repeat, no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+.cv-background-blue {
+  background-image: url('../img/background-azul.svg');
+  background-repeat: no-repeat, no-repeat;
+  height: 150vh;
+  position: relative;
+  z-index: 1;
+  bottom: 375px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* CAROUSEL..............MEDIA QUERYS................. */
+@media only screen and (max-width: 1921px) and (min-width:1900px) {
+
+  /* IMAGENES PRINCIPALE EDIFICIOS Y CAMAROGRAFO */
+  .header {
+    background-size: auto, 100%;
+    height: 130vh;
+  }
+
+  /* #Navbar */
+  .navbar {
+    padding: 2.5rem 1rem 0 5rem;
+  }
+
+  /*padding de links del navbar*/
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 8.5rem;
+  }
+
+  ul li:last-child>a {
+    padding-right: 8.5rem !important;
+  }
+
+  /*.........................................*/
+  .carousel-contenedor {
+    width: 79%;
+  }
+
+  .slick-slide {
+    margin-right: 14px;
+    margin-left: 14px;
+    width: 358px;
+  }
+
+  /* altura de arrows */
+  /* .slick-prev{
+    top:40%;
+  }
+  .slick-next{
+    top:40%;
+  } */
+}
+
+@media only screen and (max-width: 1368px) {
+
+  /* IMAGENES PRINCIPALE EDIFICIOS Y CAMAROGRAFO */
+  .header {
+    background-size: 45%, 100%;
+    background-position: right, top;
+    height: 160vh;
+  }
+
+  /*.........................................*/
+  .carousel-contenedor {
+    width: 70%;
+  }
+
+  .slick-slide {
+    margin-right: 16px;
+    margin-left: 16px;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+
+  /* navbar */
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 2.5rem;
+  }
+
+  ul li:last-child>a {
+    padding-right: .5rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+  .carousel-contenedor {
+    width: 70%;
+  }
+
+  .slick-slide {
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 310px;
+  }
+}
