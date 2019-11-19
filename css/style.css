@@ -49,26 +49,27 @@ ul li:last-child>a {
   font-weight: bold;
   padding: 2.5rem 0;
 }
+
 /* Font-cards */
-.title-card{
-  color:#7c7c7c;
+.title-card {
+  color: #7c7c7c;
   font-size: 1.5em;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
 }
-.font-company{
+
+.font-company {
   color: #afafaf;
-  font-size:1.0em;
+  font-size: 1.0em;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
 }
-.font-city{
+
+.font-city {
   color: #adadad;
-  font-size:.9em;
+  font-size: .9em;
   font-family: 'Noto Sans', sans-serif;
-
 }
-
 
 /* TITULO 2 */
 .title-how-are {
@@ -95,8 +96,7 @@ ul li:last-child>a {
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
 }
-
-
+/* SECTION-1 */
 /* PRIMER CARUSEL */
 .carousel-contenedor {
   display: block;
@@ -138,29 +138,32 @@ ul li:last-child>a {
 }
 
 .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: .5rem 1.25rem 2rem 1.25rem;
-}
-/* contenedor icono de corazon */
-.box-card{
-  display: flex;
-}
-.box-location{
-  display: flex;
-}
-/* icono de corazon */
-.heart{
-  color:#9f9f9f;
-  font-size: 1.5em;
-  margin-right:5px;
-}
-.location{
-  color:#9f9f9f;
-  font-size: 1.5em;
-  margin-right:5px;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: .5rem 1.25rem 2rem 1.25rem;
 }
 
+/* contenedor icono de corazon */
+.box-card {
+  display: flex;
+}
+
+.box-location {
+  display: flex;
+}
+
+/* icono de corazon */
+.heart {
+  color: #9f9f9f;
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+.location {
+  color: #9f9f9f;
+  font-size: 1.5em;
+  margin-right: 5px;
+}
 
 /* mensaje en picture */
 .badge-warning {
@@ -206,24 +209,49 @@ ul li:last-child>a {
   margin-bottom: 100px;
 }
 
-/* section 3 */
+/* section 2*/
 .cv-download {
   background-image: url('../img/img-curriculum.svg');
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
   height: 100vh;
   position: relative;
   z-index: 2;
 }
-
+/* section 3 */
 .cv-background-blue {
   background-image: url('../img/background-azul.svg');
-  background-repeat: no-repeat, no-repeat;
-  height: 150vh;
+  background-repeat: no-repeat;
+  height: 140vh;
   position: relative;
   z-index: 1;
   bottom: 375px;
 }
+/* sectiion 4 */
+.i-company{
+  background-image: url('../img/edificios.svg');
+  background-repeat: no-repeat;
+  height:50vh;
+  position: relative;
+  z-index:4;
 
+}
+.box-testimony{
+  background-image: url('../img/background-testimonio.svg');
+  background-repeat: no-repeat;
+  height:100vh;
+  position:relative;
+  z-index:3;
+  bottom:400px;
+
+}
+/* FOOTER */
+.footer{
+  background-color:#1e1e1e;
+  height:50vh;
+  position: relative;
+  z-index:2;
+  top:970px;
+}
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* CAROUSEL..............MEDIA QUERYS................. */
 @media only screen and (max-width: 1921px) and (min-width:1900px) {
