@@ -96,6 +96,7 @@ ul li:last-child>a {
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
 }
+
 /* SECTION-1 */
 /* PRIMER CARUSEL */
 .carousel-contenedor {
@@ -110,7 +111,12 @@ ul li:last-child>a {
   /* height:50vh; */
   width: 50%;
 }
-
+.carousel-2 {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height:50vh;
+  width: 50%;
+}
 /* IMAGEN DE CAROUSEL Y BOTON */
 .firts {
   position: relative;
@@ -217,6 +223,7 @@ ul li:last-child>a {
   position: relative;
   z-index: 2;
 }
+
 /* section 3 */
 .cv-background-blue {
   background-image: url('../img/background-azul.svg');
@@ -226,32 +233,42 @@ ul li:last-child>a {
   z-index: 1;
   bottom: 375px;
 }
+
 /* sectiion 4 */
-.i-company{
+.i-company {
   background-image: url('../img/edificios.svg');
   background-repeat: no-repeat;
-  height:50vh;
+  height: 50vh;
   position: relative;
-  z-index:4;
-
+  z-index: 4;
 }
-.box-testimony{
+
+.box-testimony {
   background-image: url('../img/background-testimonio.svg');
   background-repeat: no-repeat;
-  height:100vh;
-  position:relative;
-  z-index:3;
-  bottom:400px;
-
-}
-/* FOOTER */
-.footer{
-  background-color:#1e1e1e;
-  height:50vh;
+  height: 130vh;
   position: relative;
-  z-index:2;
-  top:970px;
+  z-index: 2;
+  bottom: 250px;
 }
+.carousel-contenedor-2 {
+  display: block;
+  margin: auto;
+  width: 85%;
+  position:relative;
+  z-index: 4;
+  top:350px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1e1e1e;
+  height: 50vh;
+  position: relative;
+  z-index:3;
+  top:595px;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* CAROUSEL..............MEDIA QUERYS................. */
 @media only screen and (max-width: 1921px) and (min-width:1900px) {
