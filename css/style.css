@@ -96,6 +96,20 @@ ul li:last-child>a {
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
 }
+/* FONT-FOOTER */
+.font-footer{
+  color: white;
+  font-size: 1.0rem;
+  font-family: 'Noto Sans', sans-serif;
+  margin-left: 20px;
+}
+.font-footer-reservados{
+  color:#797979;
+  font-size: 1.4rem;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
 
 /* SECTION-1 */
 /* PRIMER CARUSEL */
@@ -111,12 +125,14 @@ ul li:last-child>a {
   /* height:50vh; */
   width: 50%;
 }
+
 .carousel-2 {
   border: 1px solid gray;
   border-radius: 10px;
-  height:50vh;
+  height: 50vh;
   width: 50%;
 }
+
 /* IMAGEN DE CAROUSEL Y BOTON */
 .firts {
   position: relative;
@@ -251,22 +267,38 @@ ul li:last-child>a {
   z-index: 2;
   bottom: 250px;
 }
+
 .carousel-contenedor-2 {
   display: block;
   margin: auto;
   width: 85%;
-  position:relative;
+  position: relative;
   z-index: 4;
-  top:350px;
+  top: 400px;
+
 }
 
 /* FOOTER */
 .footer {
   background-color: #1e1e1e;
-  height: 50vh;
+  height: 40vh;
   position: relative;
-  z-index:3;
-  top:595px;
+  z-index: 3;
+  top: 650px;
+  display: flex;
+  align-items:center;
+
+}
+.footer-1{
+  margin-bottom:50px;
+}
+.item-footer{
+  display: flex;
+  color: white;
+  /* border: 1px solid white; */
+  justify-content: center;
+  align-items: center;
+
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
