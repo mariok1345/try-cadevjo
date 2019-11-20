@@ -4,7 +4,7 @@
   background-repeat: no-repeat, no-repeat;
   background-size: auto, 100%;
   background-position: right, top;
-  height: 100vh;
+  height: 135vh;
 }
 
 /* logo */
@@ -34,6 +34,32 @@ ul li:last-child>a {
   margin-right: 8px;
   color: #324e6f;
 }
+.form-hero{
+  display: flex;
+  align-items: center;
+  height: 50vh;
+
+}
+
+.box-form-hero{
+  margin-left:20px;
+}
+.box-input-hero{
+  display: flex;
+}
+.i-form-hero {
+
+    padding: 25px 10.75rem;
+
+    line-height: 3.5;
+
+    border: 1px solid transparent;
+    border-radius: 2.25rem;
+
+}
+.image-look{
+  margin-left: 10px;
+}
 
 /* #Navbar */
 /* MODELO DE CAJA */
@@ -41,6 +67,12 @@ ul li:last-child>a {
   width: 100%;
   max-width:1080px;
 } */
+.font-hero{
+  color: #7e7e7e;
+  font-size: 4.5em;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
 /* TITULO 1 */
 .title-sale {
   color: #7e7e7e;
@@ -80,7 +112,21 @@ ul li:last-child>a {
   padding-top: 30rem;
   padding-bottom: 5rem;
 }
+/* fonts cv- */
+.cv-font{
+  color:#acacac;
+  font-size:4.5rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  line-height:1;
+}
+.cv-d-font{
+  color:#757575;
+  font-size: 2.2rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight:bold;
 
+}
 /* numbers section 3 */
 .numbers {
   color: white;
@@ -96,6 +142,34 @@ ul li:last-child>a {
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
 }
+/* font gestion de empleos */
+.title-g-empleos{
+  color: #a48a59;
+  font-size: 2.5rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+.font-g{
+  color: white;
+  font-size: 1.8em;
+  font-family: 'Noto Sans', sans-serif;
+}
+/*  */
+.font-company-sub{
+  color:#afafaf;
+  font-size:1.5em;
+  font-family: 'Noto Sans', sans-serif;
+  line-height:1.5;
+}
+
+/* font-i CV */
+.font-i{
+  color:#acacac;
+  font-size:4.5rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  line-height:1;
+}
 /* FONT-FOOTER */
 .font-footer{
   color: white;
@@ -110,6 +184,7 @@ ul li:last-child>a {
   margin-top: 50px;
   text-align: center;
 }
+
 
 /* SECTION-1 */
 /* PRIMER CARUSEL */
@@ -233,21 +308,60 @@ ul li:last-child>a {
 
 /* section 2*/
 .cv-download {
-  background-image: url('../img/img-curriculum.svg');
+  /* background-image: url('../img/img-curriculum.svg'); */
   background-repeat: no-repeat;
-  height: 100vh;
+  height:75vh;
   position: relative;
-  z-index: 2;
+  z-index:2;
+}
+/* box font cv */
+.box-font-cv{
+  display: block;
+  padding-top:100px;
+}
+/* BOTTOM */
+.btn-block {
+    display: block;
+    width: 56%;
+    background-color: #083971;
+    color: white;
+    line-height: 2.5rem;
+}
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 1.0rem;
 }
 
 /* section 3 */
 .cv-background-blue {
   background-image: url('../img/background-azul.svg');
   background-repeat: no-repeat;
-  height: 140vh;
+  height: 130vh;
   position: relative;
   z-index: 1;
-  bottom: 375px;
+  bottom:200px;
+}
+.box-map{
+  margin-top:100px;
+
+
+}
+
+.box-iframe-map{
+position: relative;
+z-index:1;
+
+
+
+}
+.box-map-back{
+  position: relative;
+  width: 50%;
+  margin: auto;
+  z-index:2;
+  bottom:250px;
+  left:25px;
+  text-align: center;
+
 }
 
 /* sectiion 4 */
@@ -259,15 +373,42 @@ ul li:last-child>a {
   z-index: 4;
 }
 
+.box-company{
+
+}
+
 .box-testimony {
   background-image: url('../img/background-testimonio.svg');
   background-repeat: no-repeat;
-  height: 130vh;
+  height: 120vh;
   position: relative;
   z-index: 2;
-  bottom: 250px;
+  bottom:350px;
 }
+/* form button */
+.bt-enviar{
+  margin-left: 25%;
+}
+.i-form {
 
+    padding: 25px .75rem;
+
+    line-height: 3.5;
+
+    border: 1px solid black;
+    border-radius: 1.25rem;
+
+}
+.i-form-text {
+
+    padding:10px .75rem;
+
+    line-height: 2.5;
+
+    border: 1px solid black;
+    border-radius: 1.25rem;
+
+}
 .carousel-contenedor-2 {
   display: block;
   margin: auto;
@@ -303,12 +444,12 @@ ul li:last-child>a {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* CAROUSEL..............MEDIA QUERYS................. */
-@media only screen and (max-width: 1921px) and (min-width:1900px) {
+@media only screen and (max-width: 1921px) and (min-width:1500px) {
 
   /* IMAGENES PRINCIPALE EDIFICIOS Y CAMAROGRAFO */
   .header {
     background-size: auto, 100%;
-    height: 130vh;
+    height: 150vh;
   }
 
   /* #Navbar */
@@ -325,6 +466,37 @@ ul li:last-child>a {
     padding-right: 8.5rem !important;
   }
 
+  .form-hero{
+    width: 70%;
+  }
+  .font-hero{
+    color: #7e7e7e;
+    font-size: 3.5em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+  }
+
+
+  .box-form-hero{
+    margin-left:100px;
+  }
+  .box-input-hero{
+    display: flex;
+  }
+  .i-form-hero {
+
+      padding: 25px 8.75rem;
+
+      line-height: 3.5;
+
+      border: 1px solid transparent;
+      border-radius: 2.25rem;
+
+  }
+  .image-look{
+    margin-left: 10px;
+  }
+
   /*.........................................*/
   .carousel-contenedor {
     width: 79%;
@@ -335,6 +507,13 @@ ul li:last-child>a {
     margin-left: 14px;
     width: 358px;
   }
+  /* centrar iframe map */
+  .box-iframe-map {
+    text-align: center;
+}
+.box-numb{
+  display: block;
+}
 
   /* altura de arrows */
   /* .slick-prev{
@@ -345,14 +524,21 @@ ul li:last-child>a {
   } */
 }
 
-@media only screen and (max-width: 1368px) {
+@media only screen and (max-width: 1499px)and (min-width:1368px) {
 
   /* IMAGENES PRINCIPALE EDIFICIOS Y CAMAROGRAFO */
   .header {
     background-size: 45%, 100%;
     background-position: right, top;
-    height: 90vh;
+    height:110vh;
   }
+  .form-hero{
+    width: 50%;
+  }
+  .font-hero {
+    font-size: 3.0em;
+
+}
 
   /*.........................................*/
   .carousel-contenedor {
@@ -364,13 +550,74 @@ ul li:last-child>a {
     margin-left: 30px;
     width: 340px;
   }
+  /* section 2*/
+  .cv-download {
+    height:90vh;
+    background-size: contain;
+    background-position:center;
+    margin: auto;
+  }
+  /* box font cv */
+  .box-font-cv{
+    display: block;
+    padding-top:10px;
+    height:45vh;
+    position: relative;
+    z-index: 5;
+    margin: auto;
+  }
+  .cv-background-blue {
+    bottom:75px;
+    height:120vh
+
+}
+.cv-font {
+    text-align: center;
+    color: #e6a92a;
+}
+.cv-d-font {
+    text-align: center;
+    color:#239aff;
+}
+.btn-block {
+    background-color:#e6a92a;
+
+    margin: auto;
+}
+/* i-company */
+.i-company {
+    margin-top:50px;
+}
+.box-cv{
+  display: block;
+
+}
+.img-cv{
+  width: 100%;
+}
+/*  */
+.title-how-are{
+  padding-top:20rem;
+}
+.box-iframe-map {
+
+    text-align: center;
+}
+.title-g-empleos{
+  text-align: center;
+  color: white;
+}
+.font-g{
+  text-align: center;
+  color:#e6a92a;
+}
 }
 
 @media only screen and (max-width: 1025px) {
   .header {
     background-size: 45%, 100%;
     background-position: right, top;
-    height: 80vh;
+    height:120vh;
   }
 
   /* navbar */
@@ -379,7 +626,7 @@ ul li:last-child>a {
   }
 
   ul li:last-child>a {
-    padding-right: .5rem !important;
+    padding-right: 4.5rem !important;
     padding-left: 1.5rem !important;
   }
 
@@ -392,4 +639,112 @@ ul li:last-child>a {
     margin-left: 288px;
     width: 350px;
   }
+  /* section 2*/
+  .cv-download {
+    height:80vh;
+    background-size: contain;
+    background-position: center;
+  }
+  /* box font cv */
+  .box-font-cv{
+    display: block;
+    padding-top:10px;
+    height: 50vh;
+    position: relative;
+    z-index: 5;
+  }
+  .cv-background-blue {
+    bottom: 275px;
+
+}
+.header {
+
+    height: 110vh;
+}
+.form-hero{
+  width: 50%;
+}
+.font-hero {
+  font-size: 2.0em;
+
+}
+.box-form-hero {
+    margin-left:2px;
+}
+.i-form-hero {
+
+    padding: 25px 6.75rem;
+
+    line-height: 3.5;
+
+    border: 1px solid transparent;
+    border-radius: 2.25rem;
+
+}
+
+.cv-font {
+    text-align: center;
+    color: #e6a92a;
+}
+.cv-d-font {
+    text-align: center;
+    color: white;
+}
+.btn-block {
+    background-color:#e6a92a;
+
+    margin: auto;
+}
+/* i-company */
+.i-company {
+    margin-top: 20px;
+}
+.box-company {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.cv-download {
+  text-align: center;
+}
+.cv-background-blue {
+    bottom: 75px;
+}
+
+.img-cv{
+  width:60%;
+}
+.title-how-are {
+    padding-top: 15rem;
+}
+.box-map {
+    margin-top: 50px;
+}
+.box-iframe-map {
+
+    text-align: center;
+}
+.title-g-empleos{
+  text-align: center;
+  color: #a48a59;
+}
+.font-g{
+  text-align: center;
+  color: #7e7e7e;;
+}
+.form-i-center{
+  margin: auto;
+}
+.box-testimony {
+
+    height:150vh;
+    bottom:10px;
+}
+}
+
+
+@media only screen and (max-width: 480px){
+
 }
